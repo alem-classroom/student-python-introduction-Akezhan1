@@ -8,7 +8,7 @@ def duplicate_string(str, copy):
     return str*copy
 
 def reverse(str):
-    return str[-1:]
+    return str[::-1]
 
 def is_substring(str, substr):
     return substr in str
